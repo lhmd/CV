@@ -28,79 +28,125 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育背景 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 浙江大学
-    duration: "2021年9月 - "
+    duration: "2021年9月 - 至今"
     sub: 浙江，本科
     detail: 计算机科学与技术学院软件工程专业，辅修竺可桢学院工程教育高级班
-  - title: 浙江大学
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  # - title: 浙江大学
+  #   duration: Aug 2007 - Jun 2011
+  #   sub: Ut enim ad minim veniam
+  #   detail: Master Bachelor of Computer Science & Technology.
 
-- type: skills
+- type: 学业成绩
   # name: "技能"
   content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+  - title: 成绩排名
+    # items: #itmems 可以小块的方式显示
+    # - C++
+    # - Python
+    summary: 目前所有课程GPA为4.56/5.00（百分制90.7）
+    主修专业GPA为4.81/5.00（百分制93.1）
+    2022-2023学年专业成绩排名3/62
+
+  - title: 主要课程
+    items:
+    - C程序设计基础（93）
+    - 离散数学及其应用（94）
+    - 概率论与数理统计（95）
+    - 数据结构基础（95）
+    - 计算机系统原理（95）
+    - 面向对象程序设计（94）
+    - 数据库系统（95）
 
 - type: experience
-  name: 经验
+  name: 校园经历
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - title: 2021年9月进入浙江大学计算机科学与技术学院软件工程专业；
+  - title: 2021年10月任浙江大学勤创视觉与技术推广部干事；
+  - title: 2021年10月任浙江大学计算机科学与技术学院学生会学术部干事；
+  - title: 2022年2月加入浙江大学竺可桢学院工程教育高级班，任班长；
+  - title: 2022年6月任浙江大学勤创视觉与技术推广部技术顾问；
+  - title: 2022年9月加入浙江大学计算机辅助设计与图形学国家重点实验室做科研实习；
+  - title: 2023年3月负责的《基于隐式神经表示的三维场景重建与解耦技术研究》项目评为国家级科研训练项目；
+  - title: 2023年8月参加中国计算机协会主办的第一届图形学启明星计划夏令营。
+
+  # - title: 职位
+  #   sub: 某某公司
+  #   duration: "xxxx年xx月 - yyyy年yy月"
+  #   tags:
+  #   - 标签
+  #   summary: 职务或者工作总结(自动折叠)
+  #   detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+  #   # open: open
+  #   #可以设置open默认展开
+  # - title: Job Title
+  #   sub: Your 2nd, Inc.  
+  #   duration: Apr 2013 - Mar 2016
+  #   tags: 
+  #   - tagname
+  #   summary: Summary your job or work. (Collapse)
+  #   detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
-  name: Projects
+  name: 项目经历
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+  - title: 图书管理系统
+    duration: 2023年3月 - 2023年4月
+    summary: 完成了一个数据库课程的项目，实现了图书管理基础功能
+    detail: github链接：https://github.com/lhmd/LibraryManagementSystem
+    sub: 独立/Java
+  - title: minisql数据库
+    duration: 2023年5月 - 2023年6月
+    summary: 完成了一个迷你数据库的编写的课程项目，仿CMU15445项目
+    detail: github链接：https://github.com/lhmd/MiniSQL
+    sub: 独立/C++
+  - title: 在线交易子系统
+    duration: 2023年4月 - 2023年5月
+    summary: 合作完成软件工程项目作业，负责后端部分
+    detail: github链接：https://github.com/zju-lhmd/online_book
+    sub: 合作/JavaScript
+   - title: MIPS汇编模拟器
+    duration: 2023年3月 - 2023年5月
+    summary: 合作完成计算机系统原理大作业，模拟MIPS汇编、反汇编、运行、调试等功能
+    detail: github链接：https://github.com/zju-lhmd/MIPS-Simulator
+    sub: 合作/C++
+   - title: 魔方模拟器
+    duration: 2023年7月 - 2023年8月
+    summary: 合作完成魔方模拟器项目作为C++项目管理与工程实践课程作业，使用MVVM架构
+    detail: github链接：https://github.com/zju-lhmd/Rubic-Cube-Simulator
+    sub: 合作/C++
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: '奖项证书'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+  - title: 2023美国大学生数学建模竞赛 M奖
+  - title: 全国大学生数学竞赛 省级二等奖
+  - title: 浙江大学学业优秀标兵
+  - title: 2022浙江大学三等奖学金
+  - title: 全国大学生物理竞赛 省级三等奖
+  - title: 浙江大学第十六届模拟市长论坛 决赛三等奖
+  - title: 陕西省三好学生
+  - title: 全国高中数学联赛  省级二等奖
+  - title: 全国中学生英语能力竞赛  省级二等奖 
+  - title: 全国中学生物理竞赛  省级三等奖
+  - title: 全国化学奥林匹克（初赛）省级三等奖
+
+  # - 单行文字
+  # - title: "加粗:"
+  #   text: "列表项二"
+  # - title: "兴趣:"
+  #   items: #单行列表
+  #   - 睡觉
+  #   - 吃饭
+  #   - coding
+  # - title: 列表
+  #   list:
+  #   - 第一项
+  #   - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
