@@ -72,7 +72,8 @@ main: #简历主要内容，
   - title: 2023年3月负责的《基于隐式神经表示的三维场景重建与解耦技术研究》项目评为国家级科研训练项目；
   - title: 2023年8月参加中国计算机协会主办的第一届图形学启明星计划夏令营。
 
-- type: projects
+# - type: projects
+- type: experience
   name: 项目经历
   content:
   - title: 图书管理系统
