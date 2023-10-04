@@ -77,28 +77,28 @@ main: #简历主要内容，
   content:
   - title: 图书管理系统
     duration: 2023年3月 - 2023年4月
-    summary: 完成了一个数据库课程的项目，实现了图书管理基础功能
-    detail: github链接：https://github.com/lhmd/LibraryManagementSystem
+    # summary: 完成了一个数据库课程的项目，实现了图书管理基础功能
+    detail: 完成了一个数据库课程的项目，实现了图书管理基础功能,github链接：https://github.com/lhmd/LibraryManagementSystem
     sub: 独立/Java
   - title: minisql数据库
     duration: 2023年5月 - 2023年6月
-    summary: 完成了一个迷你数据库的编写的课程项目，仿CMU15445项目
-    detail: github链接：https://github.com/lhmd/MiniSQL
+    # summary: 完成了一个迷你数据库的编写的课程项目，仿CMU15445项目
+    detail: 完成了一个迷你数据库的编写的课程项目，仿CMU15445项目,github链接：https://github.com/lhmd/MiniSQL
     sub: 独立/C++
   - title: 在线交易子系统
     duration: 2023年4月 - 2023年5月
-    summary: 合作完成软件工程项目作业，负责后端部分
-    detail: github链接：https://github.com/zju-lhmd/online_book
+    # summary: 合作完成软件工程项目作业，负责后端部分
+    detail: 合作完成软件工程项目作业，负责后端部分,github链接：https://github.com/zju-lhmd/online_book
     sub: 合作/JavaScript
    - title: MIPS汇编模拟器
     duration: 2023年3月 - 2023年5月
-    summary: 合作完成计算机系统原理大作业，模拟MIPS汇编、反汇编、运行、调试等功能
-    detail: github链接：https://github.com/zju-lhmd/MIPS-Simulator
+    # summary: 合作完成计算机系统原理大作业，模拟MIPS汇编、反汇编、运行、调试等功能
+    detail: 合作完成计算机系统原理大作业，模拟MIPS汇编、反汇编、运行、调试等功能,github链接：https://github.com/zju-lhmd/MIPS-Simulator
     sub: 合作/C++
    - title: 魔方模拟器
     duration: 2023年7月 - 2023年8月
-    summary: 合作完成魔方模拟器项目作为C++项目管理与工程实践课程作业，使用MVVM架构
-    detail: github链接：https://github.com/zju-lhmd/Rubic-Cube-Simulator
+    # summary: 合作完成魔方模拟器项目作为C++项目管理与工程实践课程作业，使用MVVM架构
+    detail: 合作完成魔方模拟器项目作为C++项目管理与工程实践课程作业，使用MVVM架构,github链接：https://github.com/zju-lhmd/Rubic-Cube-Simulator
     sub: 合作/C++
 
 #others 其他简略内容(列表)
